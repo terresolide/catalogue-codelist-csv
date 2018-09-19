@@ -1,0 +1,7 @@
+Data Level ,Description 
+Level 0 ,"Reconstructed, unprocessed instrument and payload data at full resolution, with any and all communications artifacts (e.g., synchronization frames, communications headers, duplicate data) removed. (In most cases, the EOS Data and Operations System (EDOS) provides these data to the Distributed Active Archive Centers (DAACs) as production data sets for processing by the Science Data Processing Segment (SDPS) or by a Science Investigator-led Processing System [SIPS] to produce higher-level products.) "
+Level 1A ,"Reconstructed, unprocessed instrument data at full resolution, time-referenced, and annotated with ancillary information, including radiometric and geometric calibration coefficients and georeferencing parameters (e.g., platform ephemeris) computed and appended but not applied to Level 0 data. "
+Level 1B ,Level 1A data that have been processed to sensor units (not all instruments have Level 1B source data). 
+Level 2 ,Derived geophysical variables at the same resolution and location as Level 1 source data. 
+Level 3 ,"Variables mapped on uniform space-time grid scales, usually with some completeness and consistency. "
+Level 4 ,"Model output or results from analyses of lower-level data (e.g., variables derived from multiple measurements). "
