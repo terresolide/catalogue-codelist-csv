@@ -1,7 +1,4 @@
 identifier,label,description,label_fr,description_fr
-creation,creation,"date identifies when the resource was brought into existence",création,"date identifiant la création de la ressource"
-publication,publication,"date identifies when the resource was issued",publication,"date identifiant la publication de la ressource"
-revision,revision,"date identifies when the resource was examined or re-examined and imporved or amended",révision,"amélioration ou amendement de la ressource"
 download,Download,"online instructions for transferring data from one storage device or system to another",Téléchargement,"transfert de la ressource d'un système à un autre"
 information,Information,"online information about the resource",Information,"description de la ressource en ligne"
 offlineAccess,"Off line access","online instructions for requesting the resource from the provider","Accès hors ligne","information pour requérir la ressource"
