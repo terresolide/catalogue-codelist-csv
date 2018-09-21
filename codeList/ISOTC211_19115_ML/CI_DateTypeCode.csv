@@ -1,0 +1,4 @@
+identifier,label,description,label_fr,description_fr
+creation,creation,"date identifies when the resource was brought into existence",création,"date identifiant la création de la ressource"
+publication,publication,"date identifies when the resource was issued",publication,"date identifiant la publication de la ressource"
+revision,revision,"date identifies when the resource was examined or re-examined and imporved or amended",révision,"amélioration ou amendement de la ressource"
