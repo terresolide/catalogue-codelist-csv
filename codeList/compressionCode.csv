@@ -1,0 +1,6 @@
+code,label,instruction_fr,instruction_en
+ZIP,.zip,,
+RAR,.rar,,
+TAR,.tar,,
+TAR_GZ,.tar.gz,,
+TAR_BZ2,.tar.bz2,,
