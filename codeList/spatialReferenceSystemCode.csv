@@ -1,13 +1,12 @@
 code,name_en,name_fr,url
 WGS84,"2D geodetic (latitude, longitude)",,http://www.opengis.net/def/crs/EPSG/0/4326
-RGF93,Lambert 93,Lambert 93,http://www.opengis.net/def/crs/EPSG/0/2154
 NAD83,,,http://www.opengis.net/def/crs/EPSG/0/4269
 NAD27,,,http://www.opengis.net/def/crs/EPSG/0/4267
 ETRS89-XYZ,"3D Cartesian in ETRS89(X,Y,Z)",,http://www.opengis.net/def/crs/EPSG/0/4936
-ETRS89-GRS80h,"3D geodetic in ETRS89 on GRS80(Latitude, Longitude, Ellipsoidal height)",,http://www.opengis.net/def/crs/EPSG/0/4937
-ETRS89-GRS80,"2Dgeodetic in ETRS89 on GRS80(Latitude, Longitude)",,http://www.opengis.net/def/crs/EPSG/0/4258
-ETRS89-LAEA,"2D LAEA projection in ETRS89 on GRS80(Y,X)",,http://www.opengis.net/def/crs/EPSG/0/3035
-ETRS89-LCC,"2D LCC projection in ETRS89 on GRS80(N,E)",,http://www.opengis.net/def/crs/EPSG/0/3034
+ETRS89-GRS80h,"3D geodetic in ETRS89 on GRS80(Latitude, Longitude, Ellipsoidal height)",equivalent WGS84 3D,http://www.opengis.net/def/crs/EPSG/0/4937
+ETRS89-GRS80,"2Dgeodetic in ETRS89 on GRS80(Latitude, Longitude)",equivalent WGS84 2D,http://www.opengis.net/def/crs/EPSG/0/4258
+ETRS89-LAEA,"2D LAEA projection in ETRS89 on GRS80(Y,X)",2D Lambert Azimuthal Equal Area ,http://www.opengis.net/def/crs/EPSG/0/3035
+ETRS89-LCC,"2D LCC projection in ETRS89 on GRS80(N,E)",2D Lambert Conformal Conic,http://www.opengis.net/def/crs/EPSG/0/3034
 ETRS89-TM26N,"2D TM projection in ETRS89 on GRS80, zone 26N (30°W to 24°W)(N,E)",,http://www.opengis.net/def/crs/EPSG/0/3038
 ETRS89-TM27N,"2D TM projection in ETRS89 on GRS80, zone 27N (24°W to 18°W)(N,E)",,http://www.opengis.net/def/crs/EPSG/0/3039
 ETRS89-TM28N,"2D TM projection in ETRS89 on GRS80, zone 28N (18°W to 12°W)(N,E)",,http://www.opengis.net/def/crs/EPSG/0/3040
