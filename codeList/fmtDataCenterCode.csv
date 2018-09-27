@@ -2,9 +2,9 @@ code,nom_fr,nom_en,Acronyme,Ano,Description_fr,url
 BCMT,Bureau Central de Magnétisme Terrestre,,BCMT,TS-ANO-4/SNO1,,http://www.bcmt.fr
 ISGI,Service International des indices Géomagnétiques,International Service of Geomagnetic Indices,ISGI,TS-ANO-4/SNO2 ,,http://isgi.unistra.fr/
 BGI,Bureau Gravimétrique International,International Gravimetric Bureau,BGI,TS-ANO-3/SNO2,,http://bgi.obs-mip.fr/
-IGETS,International Geodynamics and Earth Tide Service,International Geodynamics and Earth Tide Service,IGETS,TS-ANO-5,,http://igets.u-strasbg.fr/
-OMIV,Observatoire Multidisciplinaire des Instabilités de Versant,Observatoire Multidisciplinaire des Instabilités de Versant,OMIV,,,http://www.ano-omiv.cnrs.fr/
-EMSO,European Multidisciplinary Seafloor and water column Observatory,European Multidisciplinary Seafloor and water column Observatory,EMSO France,,Réseau d’observatoires du fond de la mer et de la colonne d’eau,http://www.emso-fr.org/
+IGETS,International Geodynamics and Earth Tide Service,International Geodynamics and Earth Tide Service,IGETS,TS-ANO-3/SNO2,,http://igets.u-strasbg.fr/
+OMIV,Observatoire Multidisciplinaire des Instabilités de Versant,Observatoire Multidisciplinaire des Instabilités de Versant,OMIV,TS-ANO-5,,http://www.ano-omiv.cnrs.fr/
+EMSO,European Multidisciplinary Seafloor and water column Observatory,European Multidisciplinary Seafloor and water column Observatory,EMSO France,TS-ANO-6/SNO3,Réseau d’observatoires du fond de la mer et de la colonne d’eau,http://www.emso-fr.org/
 SHOM,Service hydrographique et océanographique de la Marine,Service hydrographique et océanographique de la Marine,SHOM,,Information géographique maritime et littorale de référence,https://data.shom.fr/
 SONEL,SONEL,SONEL,SONEL,,Centre de données GNSS aux marégraphes pour le programme mondial d’observation du niveau de la mer (GLOSS),http://www.sonel.org/
 RESIF_seismic,Réseau sismologique et géodésique français,French seismologic and geodetic network,RESIF-seismic,TS-ANO-2,Réseau français de sismologie et géodésie,http://seismology.resif.fr/
@@ -13,4 +13,4 @@ IERS_EOP,International Earth Rotation and Reference Systems Service,Internationa
 ITRF,International Terrestrial Reference Frame,International Terrestrial Reference Frame,ITRF,,,http://itrf.ign.fr/
 RESIF_RENAG,REseau National GNSS permanent,REseau National GNSS permanent,RESIF-RENAG,TS-ANO-3/SNO1,,http://renag.resif.fr/
 IGN_RGP,IGN Reseau GNSS permanent,IGN Reseau GNSS permanent,IGN-RGP,,,http://rgp.ign.fr/
-IPGP,Centre de données de l’Institut de Physique du Globe de Paris,Institut de Physique du Globe de Paris data center,IPGP-datacenter,,,http://centrededonnees.ipgp.fr
+IPGP,Centre de données de l’Institut de Physique du Globe de Paris,Institut de Physique du Globe de Paris data center,IPGP-datacenter,TS-ANO-1,,http://centrededonnees.ipgp.fr
