@@ -19,8 +19,8 @@ Ce répertoire est utilisé pour enregistrer les listes de code et thésaurus po
 | [INSPIRERestrictionCode](blob/master/codeList/INSPIRERestrictionCode.csv)|   **Les restrictions d'accès de la directive INSPIRE**| `MD_Constraints` | Fait
 | [languageCode](blob/master/codeList/languageCode.csv)|   **Les langues (européennes) pour les métadonnées ou données** | `MD_Metadata`, `MD_DataIdentification` | Fait
 | [licenceCode](blob/master/codeList/licenceCode.csv)|   **Les licences sur les données**  version, url , icone... | `MD_Constraints` | 50%
-| [processingLevelCode](blob/master/codeList/processingLevelCode.csv)|   **Niveau de traitement des données **  |  | 50%
-| [spatialReferenceSystemCode](blob/master/codeList/spatialReferenceSystemCode.csv)|   **Les référentiels spatiaux **  |  `MD_ReferenceSystem` | 50%
+| [processingLevelCode](blob/master/codeList/processingLevelCode.csv)|   **Niveau de traitement des données**  |  | 50%
+| [spatialReferenceSystemCode](blob/master/codeList/spatialReferenceSystemCode.csv)|   **Les référentiels spatiaux**  |  `MD_ReferenceSystem` | 50%
 | [temporalReferenceSystemCode](blob/master/codeList/temporalReferenceSystemCode.csv)|   **Les référentiels temporaux**  |  `MD_ReferenceSystem` | 0%
 | [verticalReferenceSystemCode](blob/master/codeList/verticalReferenceSystemCode.csv)|   **Les référentiels verticaux**  |  `MD_ReferenceSystem` | 0%
 
