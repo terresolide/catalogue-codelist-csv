@@ -13,7 +13,7 @@ Ce répertoire est utilisé pour enregistrer les listes de code et thésaurus po
 ### Autre Code listes
 |  Nom	 | Description    | Utilisation (ISO19139)| Etat
 | ------ | ------ | ------- | --- |
-| [compressionCode](codeList/compressionCode.csvv)   | **Les méthodes de compression des données** (tar, zip...) et les instructions de décompressions | ` MD_Distribution` | 50%
+| [compressionCode](codeList/compressionCode.csv)   | **Les méthodes de compression des données** (tar, zip...) et les instructions de décompressions | ` MD_Distribution` | 50%
 | [ fmtDataCenterCode](codeList/fmtDataCenterCode.csv)| **Les centres de données et services du pole Terre Solide**, leurs SNO, logo...                            |  ` MD_Keywords`  ? | 90%
 | [formatCode](codeList/formatCode.csv)|  **Les formats de données** | `MD_Distribution` | 01%
 | [INSPIRERestrictionCode](codeList/INSPIRERestrictionCode.csv)|   **Les restrictions d'accès de la directive INSPIRE**| `MD_Constraints` | Fait
