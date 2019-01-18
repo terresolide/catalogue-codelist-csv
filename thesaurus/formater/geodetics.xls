@@ -1,0 +1,26 @@
+"ConceptScheme URI",https://w3id.org/formater/variable/
+PREFIX,ft,https://w3id.org/formater/variable/
+
+"Ce fichier est utilisé pour enrichir le thésaurus des mots scientifiques du gcmd"
+
+"La traduction du label et de la définition de chaque concept serait un + (les colonnes skos:prefLabel@fr et skos:definition@fr)"
+"la colonne skos:exactMatch est utilisé pour créer un lien avec les concepts d'autres thésaurus"
+"   - l'URI du terme correspondant du gcmd s'y trouve déjà"
+"   - pour ajouter des concepts correspondants d'autres thésaurus, il faut séparer les URI par des virgules "","""
+
+"Les identifiants de chaque concept ont été générés automatiquement et seront modifiés ultérieurement"
+" Ils ne doivent pas être modifiés, ils sont en effet utilisés pour créer des liens entre concepts"
+
+"Les différents liens"
+"  skos:broader : Il s'agit du concept plus large (ou concept parent), il est unique"
+"  skos:narrower : les concepts plus fins (ou concepts enfants)"
+"  ...@todo"
+
+
+URI,skos:prefLabel@en,skos:prefLabel@fr,skos:definition@en,skos:definition@fr,skos:broader,skos:narrower,skos:related,skos:exactMatch
+ft:geodetics,Geodetics,,"The scientific discipline that deals with the measurement and representation of the earth, its gravitational field and geodynamic phenomena (polar motion, earth tides, and tectonic motion) in three-dimensional, time-varying space.",,ft:solid_earth,"ft:geodetics-geoid_characteristics, ft:geodetics-coordinate_reference_system, ft:geodetics-ellipsoid_characteristics",,https://gcmdservices.gsfc.nasa.gov/kms/concept/5498572c-aaed-4c08-8aad-8b297057e9c9
+ft:geodetics-geoid_characteristics,"Geoid characteristics",,"Describes the gravitational properties of the geoid, which is defined as a surface on which the earth's attractive (i.e. gravitational) forces are everywhere equal, i.e. a gravimetric equipotential surface. The geoid is of fundamental importance in determining positions on the earth's surface as most measurements are made with reference to this surface.",,ft:geodetics,,,https://gcmdservices.gsfc.nasa.gov/kms/concept/6bbbf7b0-434b-4dbc-9fe8-e5e31fe99614
+ft:geodetics-coordinate_reference_system,"Coordinate reference system",,"Coordinate systems enable geographic datasets to use common locations for integration. A coordinate system is a reference system used to represent the locations of geographic features, imagery, and observations, such as Global Positioning System (GPS) locations, within a common geographic framework.",,ft:geodetics,"ft:geodetics-coordinate_reference_system-global_coordinate_reference_system, ft:geodetics-coordinate_reference_system-country-regional_coordinate_reference_system",,https://gcmdservices.gsfc.nasa.gov/kms/concept/14b19e68-0fb3-43b1-a102-537c4e33c338
+ft:geodetics-coordinate_reference_system-global_coordinate_reference_system,"Global coordinate reference system",,"Coordinate systems enable geographic datasets to use common locations for integration. A coordinate system is a reference system used to represent the locations of geographic features, imagery, and observations, such as Global Positioning System (GPS) locations, within a common geographic framework. A global or spherical coordinate system such as latitude-longitude are often referred to as geographic coordinate systems.",,ft:geodetics-coordinate_reference_system,,,https://gcmdservices.gsfc.nasa.gov/kms/concept/e0a2edbb-8a94-4f47-918a-fe9f93aba5f4
+ft:geodetics-coordinate_reference_system-country-regional_coordinate_reference_system,"Country/regional coordinate reference system",,"Coordinate systems enable geographic datasets to use common locations for integration. A coordinate system is a reference system used to represent the locations of geographic features, imagery, and observations, such as Global Positioning System (GPS) locations, within a common geographic framework. A local or regional coordinate system use locally created reference systems to represent the location of geographic features.",,ft:geodetics-coordinate_reference_system,,,https://gcmdservices.gsfc.nasa.gov/kms/concept/bb5ca226-fdb1-4fab-9988-7486c643635b
+ft:geodetics-ellipsoid_characteristics,"Ellipsoid characteristics",,"Describes the elliptic or circular components of a ellipsoid. Many different ellipsoids have been developed for continents or individual countries to minimize local deviations from the geoid. The standard global ellipsoid is the World Geodetic System of 1984 (WGS 84).",,ft:geodetics,,,https://gcmdservices.gsfc.nasa.gov/kms/concept/bc640e63-70c1-4228-b2dc-6aa1ac6edfa6
