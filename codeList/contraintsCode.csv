@@ -1,0 +1,5 @@
+code,nom_fr,nom_en,Description_en,description_fr
+ConfidentialityLevel0,Publique,Public,,
+ConfidentialityLevel1,,Public and traceability,,
+ConfidentialityLevel2,,Restricted to the Academic community,,
+ConfidentialityLevel3,,Case-by-case,,
