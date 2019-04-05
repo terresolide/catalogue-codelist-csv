@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+	xmlns:schema="http://schema.org/"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:org="http://www.w3.org/ns/org#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:ft="https://w3id.org/formater/data-center/"
+	xmlns:dct="http://purl.org/dc/terms/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:prov="http://www.w3.org/ns/prov#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#"
+	xmlns:euvoc="http://publications.europa.eu/ontology/euvoc#">
+  <skos:ConceptScheme rdf:about="https://w3id.org/formater/data-center">
+    <dc:title>ForM@Ter | Data Center</dc:title>
+    <dc:description>ForM@Ter Data Center</dc:description>
+  </skos:ConceptScheme>
+<skos:Concept rdf:about="https://w3id.org/formater/data-center/BCMT">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Bureau Central de Magnétisme Terrestre</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">Central Bureau of Terrestrial Magnetism</skos:prefLabel>
+	<skos:definition xml:lang="en">&lt;a href="http://www.bcmt.fr" target="_blank"&gt;BCMT&lt;/a&gt;  - Central Bureau of Terrestrial Magnetism (TS-ANO-4/SNO1)</skos:definition>
+	<skos:definition xml:lang="fr">&lt;a href="http://www.bcmt.fr" target="_blank"&gt;BCMT &lt;/a&gt; - Bureau Central de Magnétisme Terrestre (TS-ANO-4/SNO1)</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://w3id.org/formater/data-center/BGI">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Bureau Gravimétrique International</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">International Gravimetric Bureau</skos:prefLabel>
+	<skos:definition xml:lang="en">&lt;a href="http://bgi.obs-mip.fr/" target="_blank"&gt;BGI&lt;/a&gt;  - International Gravimetric Bureau (TS-ANO-3/SNO1)</skos:definition>
+	<skos:definition xml:lang="fr">&lt;a href="http://bgi.obs-mip.fr/" target="_blank"&gt;BGI&lt;/a&gt;  - Bureau Gravimétrique International (TS-ANO-3/SNO1)</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://w3id.org/formater/data-center/CDGP">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Centre de données de géothermie profonde</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">Data Center for Deep Geothermal Energy</skos:prefLabel>
+	<skos:definition xml:lang="en">&lt;a href="https://cdgp.u-strasbg.fr/" target="_blank"&gt;CDGP&lt;/a&gt; - Data Center for Deep Geothermal Energy</skos:definition>
+	<skos:definition xml:lang="fr">&lt;a href="https://cdgp.u-strasbg.fr/" target="_blank"&gt;CDGP&lt;/a&gt;  - Centre de Données de Géothermie Profonde</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://w3id.org/formater/data-center/CNES_CLS">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Centre d’analyse CNES/CLS pour IGS</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">CNES/CLS analysis center for IGS</skos:prefLabel>
+	<skos:definition xml:lang="en">&lt;a href="https://igsac-cnes.cls.fr/" target="_blank"&gt;CNES/CLS&lt;/a&gt; - Analysis center for IGS</skos:definition>
+	<skos:definition xml:lang="fr">&lt;a href="https://igsac-cnes.cls.fr/" target="_blank"&gt;CNES/CLS&lt;/a&gt; -  Centre d’analyse pour l’ IGS</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://w3id.org/formater/data-center/EMSO">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Observatoire Multidisciplinaire européen dufond de la mer et le la colonne d’eau</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">European Multidisciplinary Seafloor and water column Observatory</skos:prefLabel>
+	<skos:definition xml:lang="en">&lt;a href="http://www.emso-fr.org/" target="_blank"&gt;EMSO&lt;/a&gt;  - European Multidisciplinary Seafloor and water column Observatory (TS-ANO-6/SNO3)</skos:definition>
+	<skos:definition xml:lang="fr">&lt;a href="http://www.emso-fr.org/" target="_blank"&gt;EMSO&lt;/a&gt;  - Observatoire Européen du Fond de la Mer et de la Colonne d’Eau (TS-ANO-6/SNO3)</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://w3id.org/formater/data-center/GRACE_LAGEOS">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Variations de gravité provenant de  GRACE et LAGEOS du CNES/GRGS</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">Gravity variations from GRACE and LAGEOS from CNES/CRGS</skos:prefLabel>
+	<skos:definition xml:lang="en">&lt;a href="https://grace.obs-mip.fr/" target="_blank"&gt;GRACE/LAGEOS&lt;/a&gt; - Gravity variations from GRACE and LAGEOS from CNES/CRGS</skos:definition>
+	<skos:definition xml:lang="fr">&lt;a href="https://grace.obs-mip.fr/" target="_blank"&gt;GRACE/LAGEOS&lt;/a&gt; - Variations de gravité provenant de  GRACE et LAGEOS du CNES/GRGS</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://w3id.org/formater/data-center/IDS">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">International DORIS Service</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">International DORIS Service</skos:prefLabel>
+	<skos:definition xml:lang="en">&lt;a href="https://ids-doris.org/" target="_blank"&gt;IDS&lt;/a&gt; - International DORIS Service</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://w3id.org/formater/data-center/IERS_EOP">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">International Earth Rotation and Reference Systems Service</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">International Earth Rotation and Reference Systems Service</skos:prefLabel>
+	<skos:definition xml:lang="en">&lt;a href="http://hpiers.obspm.fr/eop-pc/index.php" target="_blank"&gt;IERS&lt;/a&gt; - International Earth Rotation and Reference Systems Service</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://w3id.org/formater/data-center/IGETS">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Service international de géodynamique et marée terrestre</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">International Geodynamics and Earth Tide Service</skos:prefLabel>
+	<skos:definition xml:lang="en">&lt;a href="http://igets.u-strasbg.fr/" target="_blank"&gt;IGETS&lt;/a&gt; - International Geodynamics and Earth Tide Service (TS-ANO-3/SNO2)</skos:definition>
+	<skos:definition xml:lang="fr">&lt;a href="http://igets.u-strasbg.fr/" target="_blank"&gt;IGETS&lt;/a&gt; - Service international de géodynamique et marée terrestre (TS-ANO-3/SNO2)</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://w3id.org/formater/data-center/IGN_RGP">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">IGN Reseau GNSS permanent</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">IGN Reseau GNSS permanent</skos:prefLabel>
+	<skos:definition xml:lang="en">&lt;a href="http://rgp.ign.fr/" target="_blank"&gt;IGN/RGP&lt;/a&gt;  - Permanent GNSS network</skos:definition>
+	<skos:definition xml:lang="fr">&lt;a href="http://rgp.ign.fr/" target="_blank"&gt;IGN/RGP&lt;/a&gt;  - Réseau GNSS permanent</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://w3id.org/formater/data-center/IPGP">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Centre de données de l’Institut de Physique du Globe de Paris</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">Institut de Physique du Globe de Paris data center</skos:prefLabel>
+	<skos:definition xml:lang="en">&lt;a href="http://centrededonnees.ipgp.fr" target="_blank"&gt;IPGP&lt;/a&gt;  - data center (TS-ANO-1)</skos:definition>
+	<skos:definition xml:lang="fr">&lt;a href="http://centrededonnees.ipgp.fr" target="_blank"&gt;IPGP&lt;/a&gt;  -  Centre de données (TS-ANO-1)</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://w3id.org/formater/data-center/ISGI">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Service International des indices Géomagnétiques</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">International Service of Geomagnetic Indices</skos:prefLabel>
+	<skos:definition xml:lang="en">&lt;a href="http://isgi.unistra.fr/" target="_blank"&gt;ISGI&lt;/a&gt;  - International Service of Geomagnetic Indices (TS-ANO-4/SNO2 )</skos:definition>
+	<skos:definition xml:lang="fr">&lt;a href="http://isgi.unistra.fr/" target="_blank"&gt;ISGI&lt;/a&gt;  - Service International des Indices Géomagnétiques  (TS-ANO-4/SNO2 )</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://w3id.org/formater/data-center/ITRF">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">International Terrestrial Reference Frame</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">International Terrestrial Reference Frame</skos:prefLabel>
+	<skos:definition xml:lang="en">&lt;a href="http://itrf.ign.fr/" target="_blank"&gt;ITRF&lt;/a&gt;  - International Terrestrial Reference Frame</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://w3id.org/formater/data-center/OMIV">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Observatoire Multidisciplinaire des Instabilités de Versant</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">Observatoire Multidisciplinaire des Instabilités de Versant</skos:prefLabel>
+	<skos:definition xml:lang="en">&lt;a href="http://www.ano-omiv.cnrs.fr/" target="_blank"&gt;OMIV&lt;/a&gt;  - National Landslide Observatory (TS-ANO-5)</skos:definition>
+	<skos:definition xml:lang="fr">&lt;a href="http://www.ano-omiv.cnrs.fr/" target="_blank"&gt;OMIV&lt;/a&gt;  - Observatoire Multidisciplinaire des Instabilités de Versant (TS-ANO-5)</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://w3id.org/formater/data-center/RESIF_RENAG">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">REseau National GNSS permanent</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">REseau National GNSS permanent</skos:prefLabel>
+	<skos:definition xml:lang="en">&lt;a href="http://renag.resif.fr/" target="_blank"&gt;RESIF/RENAG&lt;/a&gt;  - Permanent GNSS network (TS-ANO-3/SNO1)</skos:definition>
+	<skos:definition xml:lang="fr">&lt;a href="http://renag.resif.fr/" target="_blank"&gt;RESIF/RENAG&lt;/a&gt;  - Réseau GNSS permanent (TS-ANO-3/SNO1)</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://w3id.org/formater/data-center/RESIF_seismic">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Réseau sismologique et géodésique français</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">French seismologic and geodetic network</skos:prefLabel>
+	<skos:definition xml:lang="en">&lt;a href="http://seismology.resif.fr/" target="_blank"&gt;RESIF&lt;/a&gt;  - Réseau sismologique et géodésique français (TS-ANO-2)</skos:definition>
+	<skos:definition xml:lang="fr">&lt;a href="http://seismology.resif.fr/" target="_blank"&gt;RESIF&lt;/a&gt;  - French seismologic and geodetic network (TS-ANO-2)</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://w3id.org/formater/data-center/SHOM">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Service hydrographique et océanographique de la Marine</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">Hydrographic and Oceanographic Service of the French Marine</skos:prefLabel>
+	<skos:definition xml:lang="en">&lt;a href="https://data.shom.fr/" target="_blank"&gt;SHOM&lt;/a&gt;  - Hydrographic and Oceanographic Service of the French Navy</skos:definition>
+	<skos:definition xml:lang="fr">&lt;a href="https://data.shom.fr/" target="_blank"&gt;SHOM&lt;/a&gt;  - Service Hydrographique et Océanique de la Marine</skos:definition>
+</skos:Concept>
+
+<skos:Concept rdf:about="https://w3id.org/formater/data-center/SONEL">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">SONEL</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">SONEL</skos:prefLabel>
+	<skos:definition xml:lang="fr">&lt;a href="http://www.sonel.org/" target="_blank"&gt;SONEL&lt;/a&gt;  -  Centre de données GNSS aux marégraphes pour le programme mondial d’observation du niveau de la mer (GLOSS)</skos:definition>
+</skos:Concept>
+
+
+
+</rdf:RDF>

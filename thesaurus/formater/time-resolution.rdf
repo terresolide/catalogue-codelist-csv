@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <skos:ConceptScheme rdf:about="https://w3id.org/formater/time-resolution">
+    <dc:title>ForM@Ter | Time Resolution</dc:title>
+    <dc:description>Time resolution</dc:description>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="https://w3id.org/formater/time-resolution#0-second">
+    <skos:prefLabel xml:lang="fr">seconde</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">second</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/formater/time-resolution#1-minute">
+    <skos:prefLabel xml:lang="fr">minute</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">minute</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/formater/time-resolution#2-hour">
+    <skos:prefLabel xml:lang="fr">heure</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">hour</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/formater/time-resolution#3-day">
+    <skos:prefLabel xml:lang="fr">jour</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">day</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/formater/time-resolution#4-week">
+    <skos:prefLabel xml:lang="fr">semaine</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">week</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/formater/time-resolution#5-month">
+    <skos:prefLabel xml:lang="fr">mois</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">month</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/formater/time-resolution#6-year">
+    <skos:prefLabel xml:lang="fr">année</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">year</skos:prefLabel>
+  </skos:Concept>
+</rdf:RDF>
+
