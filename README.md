@@ -9,7 +9,7 @@ Ce répertoire est utilisé pour enregistrer les listes de code et thésaurus po
  * [Une partie des codeLists ISOTC211 en bilingue](doc/codeList/ISOTC211_19115_2003_ML) Traduction en cours
  
 ### Thème Geologie
-  * [CodeList du theme geologie bilingue](codeList/geology)
+  * [CodeList du theme geologie bilingue](doc/codeList/geology)
 ### Autre Code listes
 |  Nom	 | Description    | Utilisation (ISO19139)| Etat
 | ------ | ------ | ------- | --- |
