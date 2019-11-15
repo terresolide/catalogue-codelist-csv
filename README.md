@@ -1,6 +1,16 @@
 # catalogue-codelist-csv
 
-Ce répertoire est utilisé pour enregistrer les listes de code et thésaurus pour le catalogue de données ForM@Ter (liste bilingue anglais / français)
+Ce répertoire est utilisé pour enregistrer les spécifications des métadonnées avec les listes de code et thésaurus pour le catalogue de données ForM@Ter
+
+## Specifications
+[Métadonnées - document de travail V0.2](https://cdn.jsdelivr.net/terresolide/catalogue-codelist-csv@0.2/metadonnees_formater.pdf)
+
+## Thesaurus
+### Variables
+
+### Plateformes
+
+### Instruments
 
 ## Code List
 
