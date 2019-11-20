@@ -5,6 +5,9 @@ Ce répertoire est utilisé pour enregistrer les spécifications des métadonné
 ## Specifications
 [Métadonnées - document de travail V0.4](https://cdn.jsdelivr.net/gh/terresolide/catalogue-codelist-csv@0.4/metadonnees_formater.pdf)
 
+## Exemples
+[Métadonnées - Magnetic field serie on Khourou Guiana - ISO 19115:2007/19139 valide INSPIRE](exemples/md_series_magnetic_field.xml)
+
 ## Thesaurus
 ### Variables
 
