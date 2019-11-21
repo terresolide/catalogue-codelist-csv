@@ -427,23 +427,18 @@ In other cases gmd:otherConstraints shall include a Non-empty Free Text Element 
           <gmd:useLimitation>
             <gco:CharacterString>How to cite: blabla </gco:CharacterString>
           </gmd:useLimitation>
+           <!-- pour prévenir que l'utilisateur doit être authentifier auprès de ForM@Ter, ou s'il faut envoyer un mail à x pour obtenir les données....-->
+          <gmd:useLimitation>
+            <gco:CharacterString>User must be authentificated to ForM@Ter service to access the data</gco:CharacterString>
+          </gmd:useLimitation>
           <!-- on ajoute le code license -->
           <gmd:useConstraints>
             <gmd:MD_RestrictionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_RestrictionCode" codeListValue="license"/>
           </gmd:useConstraints>
         </gmd:MD_LegalConstraints>
       </gmd:resourceConstraints>
-      <gmd:resourceConstraints>
-        <gmd:MD_LegalConstraints>
-        <!-- pour prévenir que l'utilisateur doit être authentifier auprès de ForM@Ter, ou s'il faut envoyer un mail à x pour obtenir les données....-->
-          <gmd:useLimitation>
-            <gco:CharacterString>User must be authentificated to ForM@Ter service to access the data</gco:CharacterString>
-          </gmd:useLimitation>
-          <gmd:accessConstraints>
-            <gmd:MD_RestrictionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_RestrictionCode" codeListValue="restricted"/>
-          </gmd:accessConstraints>
-        </gmd:MD_LegalConstraints>
-      </gmd:resourceConstraints> 
+
+
       
       <!--TG Requirement C.17: metadata/2.0/req/common/limitations-on-public-access: Limitations on public access (or lack of such limitations) for the described resource shall be described using exactly one gmd:resourceConstraints/gmd:MD_LegalConstraints element. This element shall not be the same one as used for describing conditions applying to access and use (see 2.4.7).
 The limitations on public access (or lack of such limitations) based on reasons referred to in point (a) or in points (c) to (h) of Article 13(1) of INSPIRE Directive quoted above, the gmd:resourceConstraints/gmd:MD_LegalConstraints element shall include a combination of: - one instance of gmd:accessConstraints/gmd:MD_RestrictionCode element with code list value "otherRestrictions" and - at least one instance of gmd:otherConstraints/gmx:Anchor pointing to one of the values from the code list for LimitationsOnPublicAccess. If there are no limitations on public access, the element shall point to the code list value "noLimitations".
