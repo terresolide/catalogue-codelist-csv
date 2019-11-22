@@ -3,7 +3,7 @@
 Ce répertoire est utilisé pour enregistrer les spécifications des métadonnées avec les listes de code et thésaurus pour le catalogue de données ForM@Ter
 
 ## Specifications
-[Métadonnées - document de travail V0.5](https://cdn.jsdelivr.net/gh/terresolide/catalogue-codelist-csv@0.5/metadonnees_formater.pdf)
+[Métadonnées - document de travail V0.6](https://cdn.jsdelivr.net/gh/terresolide/catalogue-codelist-csv@0.6/metadonnees_formater.pdf)
 
 ## Exemples
 [Métadonnées - Magnetic field serie on Khourou Guiana - ISO 19115:2007/19139 valide INSPIRE](exemples/md_series_magnetic_field.xml)
